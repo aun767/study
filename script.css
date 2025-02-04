@@ -1,0 +1,75 @@
+/* General page setup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h2 {
+    font-size: 2em;
+    color: #333;
+    margin: 0;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Section styling */
+h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#materi, #percobaan, #hasil {
+    display: none; /* Initially hide all sections */
+    padding: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+#materi p, #percobaan p, #hasil p {
+    color: #666;
+    line-height: 1.5;
+}
